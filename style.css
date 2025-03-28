@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result-message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.selected-option {
+    background-color: #ffcc00;
+    border: 2px solid #ff8800;
+}
+
+.extra-option-btn {
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.selected-extra-option {
+    background-color: #66cc66;
+    border: 2px solid #339933;
+    color: white;
+    font-weight: bold;
+}
+
+.extra-option-selected {
+    background-color: transparent !important;
+    border: 2px solid #ccc; /* 선택된 표시를 위해 테두리만 남김 */
+    color: black;
+}
+
+.disabled-option {
+    opacity: 0.5;
+    pointer-events: none;
+    text-decoration: line-through;
+}

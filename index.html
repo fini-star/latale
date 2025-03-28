@@ -1,1 +1,45 @@
-Hello, LaTale!
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인챈트 시뮬레이터</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>✨ 인챈트 시뮬레이터 ✨</h1>
+    </header>
+
+    <main>
+        <button id="get-item-btn">🎲 아이템 뽑기</button>
+
+        <div id="main-ui" style="display: none;">
+            <section>
+                <h2>📜 아이템 옵션</h2>
+                <ul id="item-options"></ul>
+            </section>
+
+            <section id="extra-option">
+                <!-- 5번째 옵션 선택 UI -->
+            </section>
+
+            <section>
+                <h2>🛠 인챈트</h2>
+                <p>※ 강화할 옵션을 선택한 후 인챈트하세요.</p>
+                <button id="normal-enhance-btn">⚒️ 일반 인챈트 (50%)</button>
+                <button id="super-enhance-btn">⚡ 슈퍼 인챈트 (60%)</button>
+            </section>
+
+            <p id="result-message"></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 인챈트 시뮬레이터</p>
+    </footer>
+
+</body>
+</html>
